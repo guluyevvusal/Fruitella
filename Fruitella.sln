@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fruitella.EntityLayer", "En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fruitella.DataAccessLayer", "DataAccessLayer\Fruitella.DataAccessLayer\Fruitella.DataAccessLayer.csproj", "{C72D901B-F7D0-47CB-A3FB-51B42DF51462}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fruitella.BusinessLayer", "BusinessLayer\Fruitella.BusinessLayer\Fruitella.BusinessLayer.csproj", "{8AB1D1C1-913C-4D43-A5CA-E6A3CC8BB122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fruitella.PresentationLayer", "PresentationLayer\Fruitella.PresentationLayer\Fruitella.PresentationLayer.csproj", "{0D9C502D-A3E7-4942-B21F-A9B862C24282}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C72D901B-F7D0-47CB-A3FB-51B42DF51462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C72D901B-F7D0-47CB-A3FB-51B42DF51462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C72D901B-F7D0-47CB-A3FB-51B42DF51462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB1D1C1-913C-4D43-A5CA-E6A3CC8BB122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB1D1C1-913C-4D43-A5CA-E6A3CC8BB122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB1D1C1-913C-4D43-A5CA-E6A3CC8BB122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB1D1C1-913C-4D43-A5CA-E6A3CC8BB122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9C502D-A3E7-4942-B21F-A9B862C24282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9C502D-A3E7-4942-B21F-A9B862C24282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9C502D-A3E7-4942-B21F-A9B862C24282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9C502D-A3E7-4942-B21F-A9B862C24282}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
