@@ -13,7 +13,6 @@
   <ItemGroup>
     <Folder Include="EntityFrameWork\" />
     <Folder Include="Concrete\" />
-    <Folder Include="Repository\" />
   </ItemGroup>
 
   <ItemGroup>
