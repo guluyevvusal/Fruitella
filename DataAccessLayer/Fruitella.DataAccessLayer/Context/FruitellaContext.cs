@@ -12,7 +12,7 @@ namespace Fruitella.DataAccessLayer.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LAPTOP-8PPT5PTN\\SQLEXPRESS;Database=FruitellaDBContext;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=LAPTOP-8PPT5PTN\\SQLEXPRESS;Database=FruitellaDBContext;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
         public DbSet<About> Abouts { get; set; }
