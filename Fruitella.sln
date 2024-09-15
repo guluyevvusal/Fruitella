@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35111.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fruitella.EntityLayer", "EntityLayer\Fruitella.EntityLayer\Fruitella.EntityLayer.csproj", "{C9A5A449-93DC-4672-B4BC-9C6C9D9C4900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fruitella.EntityLayer", "EntityLayer\Fruitella.EntityLayer\Fruitella.EntityLayer.csproj", "{C9A5A449-93DC-4672-B4BC-9C6C9D9C4900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fruitella.DataAccessLayer", "DataAccessLayer\Fruitella.DataAccessLayer\Fruitella.DataAccessLayer.csproj", "{C72D901B-F7D0-47CB-A3FB-51B42DF51462}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C9A5A449-93DC-4672-B4BC-9C6C9D9C4900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A5A449-93DC-4672-B4BC-9C6C9D9C4900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A5A449-93DC-4672-B4BC-9C6C9D9C4900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72D901B-F7D0-47CB-A3FB-51B42DF51462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72D901B-F7D0-47CB-A3FB-51B42DF51462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72D901B-F7D0-47CB-A3FB-51B42DF51462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72D901B-F7D0-47CB-A3FB-51B42DF51462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

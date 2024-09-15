@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fruitella.EntityLayer.Concrete
 {
-    internal class SocialMedia
+    public class SocialMedia
     {
         public int SocialMediaId { get; set; }
         public string Title { get; set; }
