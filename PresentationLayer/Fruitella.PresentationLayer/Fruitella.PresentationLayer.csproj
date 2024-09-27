@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <Folder Include="Views\AdminLayout\" />
+    <Folder Include="Views\Shared\_HeadLayoutComponentPartial\" />
   </ItemGroup>
 
 </Project>
